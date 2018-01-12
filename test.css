@@ -21,6 +21,12 @@ a {
 	text-decoration: none;
 }
 
+h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0.25rem 0 0.5rem;
+	line-height: 1.25;
+}
+
 /** nav **/
 header {
 	width: 100%;
@@ -78,4 +84,22 @@ nav ul li a {
 	padding: 0 10px;
 	width: 30%;
 	flex: 1;
+}
+
+/** boxes **/
+
+.ms-c-images {
+	padding: 30px 0;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.ms-ci-box {
+	margin: 0;
+	padding: 10px;
+	width: 33.333%;
+}
+
+.ms-ci-box img {
+	width: 100%;
 }
