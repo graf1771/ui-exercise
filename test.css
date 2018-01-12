@@ -77,13 +77,28 @@ nav ul li a {
 .ms-content {
 	padding: 0 10px;
 	width: 70%;
-	flex: 2;
+	flex: 1;
 }
 
 .ms-sidebar {
-	padding: 0 10px;
+	padding: 30px 0;
+	width: 0%;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	overflow: hidden;
+}
+
+.ms-sb-show {
+	padding: 30px 10px;
 	width: 30%;
-	flex: 1;
+	background: #efefef;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	overflow: hidden;
 }
 
 /** boxes **/
